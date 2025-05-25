@@ -1,0 +1,36 @@
+.head {
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: grey;
+  }
+  
+  .title {
+    font-size: 50px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+  
+  .originalTitle {
+    font-size: 20px;
+    margin: 0;
+    opacity: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .nav {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .active {
+    color: rgb(51, 129, 207);
+  }

@@ -1,0 +1,9 @@
+.castList {
+    display: flex;
+    gap: 10px;
+    overflow-y: scroll;
+  }
+  
+  .item {
+    flex-shrink: 0;
+  }
