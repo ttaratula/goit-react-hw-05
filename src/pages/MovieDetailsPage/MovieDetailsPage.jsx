@@ -19,7 +19,7 @@ export default function MovieDetailsPage() {
     getMovie(movieId).then(({ data }) => {
       setMovieData(data);
     });
-  }, []);
+  }, [movieId]);
 
   return (
     <>

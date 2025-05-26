@@ -11,7 +11,7 @@ export default function MovieCast() {
     getMovieCast(movieId).then(({ data }) => {
       return setCasts(data.cast);
     });
-  }, []);
+  }, [movieId]);
 
   return (
     <ul className={css.castList}>

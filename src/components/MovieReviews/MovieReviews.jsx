@@ -9,7 +9,7 @@ export default function MovieReviews() {
   const { movieId } = useParams();
   useEffect(() => {
     getMovieReviews(movieId).then(({ data }) => setReviews(data.results));
-  }, []);
+  }, [movieId]);
 
   return (
     <ul>
